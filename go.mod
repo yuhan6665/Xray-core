@@ -9,8 +9,6 @@ require (
 	github.com/google/go-cmp v0.5.9
 	github.com/gorilla/websocket v1.5.0
 	github.com/lucas-clemente/quic-go v0.29.0
-	github.com/marten-seemann/qtls-go1-16 v0.1.5
-	github.com/marten-seemann/qtls-go1-17 v0.1.2
 	github.com/marten-seemann/qtls-go1-18 v0.1.2
 	github.com/miekg/dns v1.1.50
 	github.com/pelletier/go-toml v1.9.5
@@ -27,7 +25,7 @@ require (
 	golang.org/x/net v0.0.0-20220909164309-bea034e7d591
 	golang.org/x/sync v0.0.0-20220907140024-f12130a52804
 	golang.org/x/sys v0.0.0-20220915200043-7b5979e65e41
-	google.golang.org/grpc v1.49.0
+	google.golang.org/grpc v1.50.0
 	google.golang.org/protobuf v1.28.1
 	h12.io/socks v1.0.3
 )
