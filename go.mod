@@ -13,7 +13,7 @@ require (
 	github.com/miekg/dns v1.1.50
 	github.com/pelletier/go-toml v1.9.5
 	github.com/pires/go-proxyproto v0.6.2
-	github.com/refraction-networking/utls v1.2.0
+	github.com/refraction-networking/utls v1.2.2
 	github.com/sagernet/sing v0.1.6
 	github.com/sagernet/sing-shadowsocks v0.1.0
 	github.com/sagernet/wireguard-go v0.0.0-20221116151939-c99467f53f2c
@@ -40,7 +40,7 @@ require (
 	github.com/go-task/slim-sprig v0.0.0-20210107165309-348f09dbbbc0 // indirect
 	github.com/google/btree v1.1.2 // indirect
 	github.com/google/pprof v0.0.0-20221219190121-3cb0bae90811 // indirect
-	github.com/klauspost/compress v1.15.14 // indirect
+	github.com/klauspost/compress v1.15.15 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.3 // indirect
 	github.com/kr/pretty v0.3.1 // indirect
 	github.com/marten-seemann/qtls-go1-19 v0.1.2 // indirect
