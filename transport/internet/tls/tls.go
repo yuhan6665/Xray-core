@@ -128,12 +128,13 @@ func UClient(c net.Conn, config *tls.Config, fingerprint *utls.ClientHelloID) ne
 
 func copyConfig(c *tls.Config) *utls.Config {
 	return &utls.Config{
-		Rand:                  c.Rand,
-		RootCAs:               c.RootCAs,
-		ServerName:            c.ServerName,
-		InsecureSkipVerify:    c.InsecureSkipVerify,
-		VerifyPeerCertificate: c.VerifyPeerCertificate,
-		KeyLogWriter:          c.KeyLogWriter,
+		Rand:                           c.Rand,
+		RootCAs:                        c.RootCAs,
+		ServerName:                     c.ServerName,
+		InsecureSkipVerify:             c.InsecureSkipVerify,
+		VerifyPeerCertificate:          c.VerifyPeerCertificate,
+		KeyLogWriter:                   c.KeyLogWriter,
+		EncryptedClientHelloConfigList: c.EncryptedClientHelloConfigList,
 	}
 }
 
@@ -179,7 +180,7 @@ func GetFingerprint(name string) (fingerprint *utls.ClientHelloID) {
 
 var PresetFingerprints = map[string]*utls.ClientHelloID{
 	// Recommended preset options in GUI clients
-	"chrome":           &utls.HelloChrome_120,
+	"chrome":           &utls.HelloChrome_131,
 	"firefox":          &utls.HelloFirefox_Auto,
 	"safari":           &utls.HelloSafari_Auto,
 	"ios":              &utls.HelloIOS_Auto,
