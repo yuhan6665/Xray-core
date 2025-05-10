@@ -180,7 +180,7 @@ func GetFingerprint(name string) (fingerprint *utls.ClientHelloID) {
 
 var PresetFingerprints = map[string]*utls.ClientHelloID{
 	// Recommended preset options in GUI clients
-	"chrome":           &utls.HelloChrome_131,
+	"chrome":           &utls.HelloChrome_120,
 	"firefox":          &utls.HelloFirefox_Auto,
 	"safari":           &utls.HelloSafari_Auto,
 	"ios":              &utls.HelloIOS_Auto,
